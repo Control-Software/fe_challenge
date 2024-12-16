@@ -9,12 +9,16 @@ Use the Fireblocks NCW Web Demo repository to build a non-custodial wallet and d
    - Fork the [Fireblocks NCW Web Demo repository](https://github.com/fireblocks/ncw-web-demo).
    - Clone the repository locally and follow the instructions in the README to set up the development environment.
 
-2. **Implement Wallet Creation:**
+2. **Create a similar project:**
+   - Import in a new react project the ncw_wallet_sdk using the example as a guide.
+   - Login is not required
+
+3. **Implement Wallet Creation:**
    - Add functionality to allow users to create a new non-custodial wallet.
    - Ensure that the wallet generates a key pair (e.g., using ECDSA or Ed25519) and stores the private key securely in the client environment (e.g., using browser storage or a secure enclave).
    - Provide a simple and intuitive UI for wallet creation, including a recovery phrase or backup mechanism.
 
-3. **Simulate Wallet Takeover:**
+4. **Simulate Wallet Takeover:**
    - Implement a recovery mechanism where a user can regain access to their wallet in case of loss of private key access. This could involve:
      - Entering a recovery phrase.
      - Using a multi-signature setup with a trusted third party.
